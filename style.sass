@@ -1,0 +1,53 @@
+$backColor: 	#fbd022
+$headerMain:    #203f85
+$bookBody: rgba(253, 246, 222, 0.26)
+$header2nd:     #f03c29
+$btnColor: #1eb4cb
+
+body
+  background-color: $backColor
+.recipe-book
+  border-radius: 20px
+  background-color: white
+  margin-top: 25px
+  padding-bottom: 20px
+  overflow: hidden
+  .header
+    background-color: $header2nd
+    margin: -20px -15px 10px -15px
+    padding: 15px
+    text-align: center
+    color: white
+  .panel-title
+    h3
+      margin: 0
+  .recipe-title
+    input
+      width: 100%
+      text-align: center
+      font-size: 2.5em
+  .recipe-book-footer
+
+    .add-edit-btn
+      background-color: $headerMain
+      color: white
+  .add-edit-recipe
+    .modal-content
+      overflow: hidden
+      .modal-header
+        background-color: $backColor
+        input
+          border: 1px solid #ccc
+          border-radius: 4px
+      .modal-body
+        textarea
+          resize: none
+          height: 100px
+      .modal-footer
+        background-color: $backColor
+  .new-ing-input-group
+    margin: 10px 0 10px 0
+  .add-edit-btn
+    margin-left: 20px
+  .modal-footer
+    padding: 10px
